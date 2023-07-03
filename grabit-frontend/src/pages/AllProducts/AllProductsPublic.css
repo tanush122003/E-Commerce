@@ -1,0 +1,369 @@
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#main
+{
+    background-color: rgba(33, 37, 41, 1);
+}
+#navtab
+{
+    background: #2f3749;
+}
+.logo
+{
+    height: 85px;
+    margin-left: 50px;
+    transition: transform 0.5s;
+}
+.logo:hover
+{
+    transition-timing-function: ease;
+    transform: scale(1.125);
+}
+#login-btn
+{
+    margin-top: 20px;
+    width: 70px;
+    /*background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);*/
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+#login-btn:hover
+{
+    background-position: right center;
+}
+.fa-cart-shopping
+{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#search
+{
+    width: 110px;
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    color: white;
+    border: none;
+    background-size: 200% auto;
+    transition: transform 0.5s,background-position 0.5s;
+}
+#search:hover
+{
+    transform: scale(1.015);
+    background-position: right center;
+}
+#search-tab,#search
+{
+    margin-top: 20px;
+    height: 40px;
+}
+@media (min-width:850px){
+    #search-tab
+    {
+        width: 220px;
+    } 
+}
+@media (min-width:992px){
+    #search-tab
+    {
+        width: 400px;
+    }
+}
+@media (min-width:1200px){
+    #search-tab
+    {
+        width: 600px;
+    } 
+}
+
+/*footer stylings*/
+#foot{
+    margin: 0px;
+}
+#nobor
+{
+    border: none;
+    background-color: transparent;
+}
+#hori
+{
+    margin-top: 40px;
+    width: 85%;
+}
+#cardadjust
+{
+    padding-top: 15px;
+}
+#copyright
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#bgm
+{
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+#pagi
+{
+    border-radius: 100%;
+    background-color: gold;
+    border: 2px solid black;
+    font-weight: 900;
+    transition: all 0.25s linear;
+}
+#pagi:hover
+{
+    scale: 1.2;
+    color: white;
+    background-color: black;
+}
+#wd
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#tagname
+{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    color: white;
+}
+#link_page
+{
+    text-decoration: none;
+    color: white;
+}
+#addto
+{
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#addtocart
+{
+    width: 150px;
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    border: none;
+    background-size: 200% auto;
+    transition: transform 0.5s, background-position 0.5s;
+}
+#addtocart:hover
+{
+    transform: scale(1.015);
+    background-position: right center;
+}
+#img
+{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px;
+}
+
+
+
+/*contact page*/
+
+.contactme-pic img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+/*no bagckground to remove dark color*/
+#nobag
+{
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+/*adjusting screen for all devices*/
+/*it will give more responsiveness*/
+
+@media(min-width:768px)
+{
+    form#form label
+    {
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+    }
+    .contactme-pic img
+    {
+        padding-right: 30px;
+        margin-top: 2rem;
+    }
+    form#form
+    {
+        padding-left: 30px;
+        margin-top: 2rem;
+    }
+}
+@media(min-width:962px)
+{
+    form#form label
+    {
+        font-size: 1rem;
+        margin-top: 0.75rem;
+    }
+    .contactme-pic img
+    { 
+        margin-top: 2rem;
+    }
+    form#form{
+        margin-top: 2rem;
+    }
+}
+@media (min-width:1200px)
+{
+    form#form label
+    {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+    .contactme-pic img
+    {    
+        margin-top: 1rem;
+    }
+    form#form
+    {
+        margin-top: 2rem;
+    }
+    .contact-title
+    {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+}
+#name,#email,#message
+{
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#contact-page
+{
+    background-image: linear-gradient( 360deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    padding-bottom: 62px;
+}
+#submit-btn
+{
+    color: white;
+    margin-top: 20px;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    border: none;
+    background-size: 200% auto;
+    transition: transform 0.5s, background-position 0.5s;
+}
+#submit-btn:hover
+{
+    transform: scale(1.015);
+    background-position: right center;
+}
+
+
+
+
+/*contact page*/
+
+#login-page
+{
+    background-image: linear-gradient( 360deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    padding-bottom: 40px;
+}
+.login-head
+{
+    font-size: 4rem;
+}
+
+/*adjusting screen for all devices*/
+/*it will give more responsiveness*/
+@media(max-width:768px){
+    .login-head
+    {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    input
+    {
+        height: 1.5rem;
+    }
+    .email-cont,.password-cont
+    {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width:962px)
+{
+    .login-head
+    {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    input
+    {
+        height: 2rem;
+    }
+    .email-cont,.password-cont
+    {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+}
+
+@media(min-width:1200px){
+    .email-cont,.password-cont{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .password-icon,.mail-icon
+    {
+        bottom:-3.4rem;
+    }
+    input
+    {
+        height: 2.5rem;
+    }
+    .login-head
+    {
+        margin-top: 2.5rem;
+    }
+}
+#submit
+{
+    color: white;
+    margin-top: 40px;
+    height: 45px;
+    width: 50%;
+    align-self: center;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    border: none;
+    background-size: 200% auto;
+    transition: transform 0.5s, background-position 0.5s;
+    font-size: 25px;
+}
+#submit:hover
+{
+    transform: scale(1.015);
+    background-position: right center;
+}
+

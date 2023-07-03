@@ -1,0 +1,32 @@
+.custom-accordion{
+    background-image: linear-gradient( 360deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    color:rgb(255, 255, 255);
+}
+
+.custom-accordion .accordion-button{
+    
+    background-color: rgb(236, 82, 82);
+    font-weight: bold;
+    color:black;
+
+}
+
+#bt{
+    
+    background-color: rgb(99, 181, 103);
+    font-weight: bold;
+    color:black;
+
+}
+
+.product-name-in-accordion{
+    font-size: 1.4rem;
+}
+
+a{
+    color:lightgoldenrodyellow;
+}
+
+.product-category-in-accordion{
+    border: 1px solid lightgoldenrodyellow;
+}

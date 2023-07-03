@@ -1,0 +1,221 @@
+/*header stylings*/
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#main
+{
+    background-color: rgba(33, 37, 41, 1);
+}
+#navtab
+{
+    background: #2f3749;
+}
+#login-btn
+{
+    margin-top: 20px;
+    width: 70px;
+    /*background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);*/
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+#login-btn:hover
+{
+    background-position: right center;
+}
+.logo
+{
+    height: 85px;
+    margin-left: 50px;
+    transition: transform 0.5s;
+}
+.logo:hover
+{
+    transition-timing-function: ease;
+    transform: scale(1.125);
+}
+#login-btn
+{
+    margin-top: 20px;
+    width: 70px;
+    /*background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);*/
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+#login-btn:hover
+{
+    background-position: right center;
+}
+.fa-cart-shopping
+{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#search
+{
+    width: 110px;
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    color: white;
+    border: none;
+    background-size: 200% auto;
+    transition: transform 0.5s,background-position 0.5s;
+}
+#search:hover
+{
+    transform: scale(1.015);
+    background-position: right center;
+}
+#search-tab,#search
+{
+    margin-top: 20px;
+    height: 40px;
+}
+@media (min-width:850px){
+    #search-tab
+    {
+        width: 220px;
+    } 
+}
+@media (min-width:992px){
+    #search-tab
+    {
+        width: 400px;
+    }
+}
+@media (min-width:1200px){
+    #search-tab
+    {
+        width: 600px;
+    } 
+}
+#bg{
+    background: url(../images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.3rem;
+    padding:0;
+}
+#bg .bg-dimmed{
+    background: rgba(0, 0, 0, 0.75);
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*index page stylings*/
+#slo
+{
+    color: white;
+    transition: transform 0.4s;
+}
+#slo:hover
+{
+    transition-timing-function: ease;
+    transform: scale(1.125);
+}
+.slo-logo
+{
+    height: 185px;
+    margin-top: -40px;
+    transition: transform 0.5s;
+}
+.slo-logo:hover
+{
+    transform: scale(1.23);
+}
+
+/*footer styling*/
+#foot
+{
+    margin: 0px;
+}
+#link_page
+{
+    text-decoration: none;
+    color: white;
+}
+#nobor
+{
+    border: none;
+    background-color: transparent;
+}
+#hori
+{
+    margin-top: 40px;
+    width: 85%;
+}
+
+/*card stylings*/
+#cardadjust
+{
+    padding-top: 15px;
+}
+#copyright
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#mod
+{
+    width: 7%;
+}
+#tagname
+{
+    font-size: 50px;
+    padding-bottom: 40px;
+    background-color:transparent;
+    color: white;
+}
+
+/*large,medium and small screen adjustments*/
+#largeScreenSlider,#MediumScreenSlider,#SmallScreenSlider
+{
+    background-color: black;
+    background-image: linear-gradient( 360deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    /*background-image: linear-gradient( 180deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );*/
+    /*background-image: linear-gradient( 180deg,  rgba(30,2,83,1) 44.2%, rgba(198,55,160,1) 138.2% );*/
+    /*background-image: linear-gradient( 180deg,  rgba(62,5,116,1) -5.2%, rgba(41,14,151,1) -5.2%, rgba(216,68,148,1) 103.3% );*/
+}
+
+/*cart icon stylings*/
+#addto
+{
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#addtocart
+{
+    width: 150px;
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    border: none;
+    background-size: 200% auto;
+    transition: transform 0.5s, background-position 0.5s;
+}
+#addtocart:hover
+{
+    transform: scale(1.015);
+    background-position: right center;
+}
+
+/*images in card styling*/
+#img
+{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px;
+}

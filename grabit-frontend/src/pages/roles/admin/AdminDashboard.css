@@ -1,0 +1,89 @@
+
+.dashboard-links
+{
+    justify-content: center;
+}
+
+.admin-detail{
+    background-image: linear-gradient( 360deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    min-height: 25rem;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#bgmi
+{
+    background-image: linear-gradient( 360deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    color: white;
+    max-height: 25rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#dele
+{
+    background-color: gold;
+    border-radius: 30px;
+    font-weight: 900;
+    transition: all 0.2s linear;
+}
+#dele:hover
+{
+    scale: 1.025;
+    background-color: black;
+    color: white;
+}
+#detail
+{
+    background-color: gold;
+    color: black;
+    border-radius: 30px;
+    width: 140px;
+    font-weight: 900;
+    transition: all 0.2s linear;
+}
+#detail:hover
+{
+    scale: 1.025;
+    background-color: black;
+    color: white;
+}
+
+#select{
+    background-image: linear-gradient(to right, rgba(228,29,36,1) 0%, rgba(125,66,147,1) 51%, rgba(228,29,36,1) 100%);
+    background-size: 200% auto;
+    color: white;
+    border: 2px solid black;
+    padding:1rem 0.5rem;
+    border-radius: 50px;
+    transition: transform 0.5s, background-position 0.5s;
+    
+}
+#select:hover{
+    background-color:black;
+    color:white;
+    transform: scale(1.075);
+    background-position: right center;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ! add product */
+
+.modal-submit-buttons-container{
+    display:flex
+}
+
+@media(min-width:1024px){
+    .modal-submit-buttons-container .modal-submit-button{
+        width: 10rem;
+        margin:0 auto;
+        font-size: 1rem !important;
+    }
+}
